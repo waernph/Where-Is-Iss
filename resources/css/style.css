@@ -11,6 +11,11 @@ body {
     z-index: 0;
     position: relative;
 }
+img {
+    width: 360px;
+    height: 180px;
+    z-index: 1;
+}
 .iss {
     width: 5px;
     height: 5px;
