@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    width: 360px;
+    height: 180px;
+    background-color: blue;
+    z-index: 0;
+    position: relative;
+}
+.iss {
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
