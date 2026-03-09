@@ -5,8 +5,8 @@ body {
     align-items: center;
 }
 .map{
-    width: 360px;
-    height: 180px;
+    width: 360;
+    height: 180;
     background-color: blue;
     z-index: 0;
     position: relative;
