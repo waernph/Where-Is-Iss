@@ -1,10 +1,10 @@
 let zoomAmount = 3;
 
 async function issApi() {
-        let response = await fetch("http://api.open-notify.org/iss-now.json");
+        let response = await fetch("https://api.wheretheiss.at/v1/satellites/25544");
         let result = await response.json();
-        const latitude = result['iss_position']['latitude'];
-        const longitude = result['iss_position']['longitude'];
+        const latitude = result.latitude;
+        const longitude = result.longitude;
         document.getElementById("lat").innerText = "Latitude: " + latitude;
         document.getElementById("long").innerText = "Longitude: " + longitude;
         const map = document.querySelector("img");
