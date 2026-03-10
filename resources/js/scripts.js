@@ -21,4 +21,4 @@ issApi();
 
 setInterval(() => {
     issApi();
-}, 2000);
+}, 1000);
