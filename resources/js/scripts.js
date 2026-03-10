@@ -8,6 +8,7 @@ async function issApi() {
     background.style.width = (360 * zoomAmount) + "px";
     background.style.height = (180 * zoomAmount) + "px";
     let response = await fetch("https://api.wheretheiss.at/v1/satellites/25544");
+    let responseTwo = await fetch("http://api.open-notify.org/iss-now.json");
     let result = await response.json();
     const latitude = result.latitude;
     const longitude = result.longitude;
